@@ -1,48 +1,34 @@
-body{
+.navbar-brand{
 	font-family: Ubuntu;
 	background:#1C4A00;
+	color: #7FBA5D;
+
 }
-table{
+.navbar{
+	background: #1C4A00;
+}
+.nav > li > a{
+	font-family: Ubuntu;
+	color:	#7FBA5D;
+}
+body{
+	
+	border-left: #569532;
+	color:#1C4A00;
+	font-family: Open Sans;
 	background: #B0DF95;
-	width: 100%;
 }
-h3{
-	font-weight: 700;
-	font-size: xx-large;
-	padding-left: 9px;
-	padding-top: 9px;
-	color: #356F13;
-	text-transform: uppercase;
-	letter-spacing: .06px;
+.jumbotron{
+	margin-top:70px;
+	background: #1C4A00;
+	color:#7FBA5D;
 }
-.icons{
-	color: #356F13;
-	margin-left: 33%;
+.about{
+	border-left: 5px solid #B0DF95;
+}
+.paragraph{
+	padding-left: 20px;
 }
 .sophia{
-	border-radius: 50%;
-}
-.intro{
-	color: #7FBA5D;
-	border-left: 2px solid #B0DF95;
-	font-family: Open Sans;
-	padding-right: 30%;
-	padding-left: 10px;
-	margin-left: 5px;
-	margin-top: 10px;
-	font-weight: 800;
-}
-.projects{
-	color:  #7FBA5D;
-	font-family: Open Sans;
-	font-weight:400;
-	border-bottom: 2px solid #B0DF95;
-	text-align: center;
-	width: 150px;
-	margin-left: 500px;
-}
-img{
-	width: 70%;
-	padding-left: 10%;
-
+	margin-left: 30%;
 }
